@@ -20,6 +20,10 @@ export const routes: Routes = [
                 path: 'home',
                 loadChildren: 'app/+home/home.module#HomeModule'
             },
+            {
+                path: 'prueba',
+                loadChildren: 'app/+prueba/prueba.module#pruebaModule'
+            },
         ]
     },
 
